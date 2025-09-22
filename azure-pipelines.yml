@@ -19,4 +19,4 @@ stages:
             containerRegistry: 'docker-registory-pipeline'
             repository: 'JavaLoginPracticeApp'
             command: 'build'
-            Dockerfile: '**/Dockerfile'
+            Dockerfile: '.'
