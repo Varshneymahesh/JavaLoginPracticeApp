@@ -16,6 +16,7 @@ stages:
             dockerVersion: '17.09.0-ce'
         - task: Docker@2
           inputs:
-            containerRegistry: 'docker to azure'
+            containerRegistry: 'docker-registory-pipeline'
+            repository: 'JavaLoginPracticeApp'
             command: 'build'
             Dockerfile: '**/Dockerfile'
