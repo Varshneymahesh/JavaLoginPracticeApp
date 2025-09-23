@@ -24,3 +24,4 @@ stages:
               containerRegistry: 'docker'
               repository: 'myew09.azurecr.io/myapp'
               command: 'push'
+              tags: 'latest'
