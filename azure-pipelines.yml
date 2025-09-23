@@ -18,3 +18,9 @@ stages:
               command: 'build'
               Dockerfile: 'Dockerfile'
               tags: 'latest'
+          
+          - task: Docker@2
+            inputs:
+              containerRegistry: 'docker'
+              repository: 'myew09.azurecr.io/myapp'
+              command: 'push'
