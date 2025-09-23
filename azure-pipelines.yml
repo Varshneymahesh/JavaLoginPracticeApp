@@ -12,10 +12,10 @@ stages:
       - job: buildimage
         displayName: Build image
         steps:
-        
         - task: Docker@2
           inputs:
-            containerRegistry: 'docker-registory-pipeline'
-            repository: 'JavaLoginPracticeApp'
+            containerRegistry: 'docker'
+            repository: 'myew09.azurecr.io'
             command: 'build'
             Dockerfile: '.'
+       
