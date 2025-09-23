@@ -1,7 +1,7 @@
 trigger:
 - main
 
-pool: Docker
+pool: self-hosted
   
 
 
